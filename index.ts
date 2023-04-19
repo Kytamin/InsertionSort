@@ -8,10 +8,8 @@ function InsertionSort(Arr:number[]) {
         }
         Arr[j + 1] = key;
 
-        console.log(`bước chèn ${Arr} `)
-        console.log(`swap ${Arr[j]} with ${Arr[j+1]}`)
     }
     return Arr;
 }
 let arr1=[1,11,2,22,3,33,4,44,5,55]
-InsertionSort(arr1)
+console.log(InsertionSort(arr1))
